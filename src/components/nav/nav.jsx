@@ -39,10 +39,10 @@ export default class nav extends Component {
             <Link to={"/home"}>Home</Link>
           </li>
           <li>
-            <Link to={"/about"}>Home</Link>
+            <Link to={"/about"}>about</Link>
           </li>
           <li>
-            <Link to={"/contact"}>Home</Link>
+            <Link to={"/contact"}>contact</Link>
           </li>
         </ul>
       </div>
