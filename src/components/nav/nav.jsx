@@ -36,13 +36,13 @@ export default class nav extends Component {
 
         <ul className="sidenav" id="mobile-demo">
           <li>
-            <a href="home">Home</a>
+            <Link to={"/home"}>Home</Link>
           </li>
           <li>
-            <a href="about">about</a>
+            <Link to={"/about"}>Home</Link>
           </li>
           <li>
-            <a href="Contact">contact</a>
+            <Link to={"/contact"}>Home</Link>
           </li>
         </ul>
       </div>
