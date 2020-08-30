@@ -33,8 +33,8 @@ export default class about extends Component {
         <div className="myskills">
           <h2>My Skills</h2>
           <p>
-            Apart from my college fundamentals and i self-tought the we
-            development and i develop the skills which are required for web
+            Apart from my college fundamentals and i self-tought my self
+            development of new technologies and i develop the skills which are required for web
             development
           </p>
           <ul className="skills">
