@@ -48,6 +48,9 @@ export default function MCard() {
             <GithubIcon style={{ color: "black" }}>Github</GithubIcon>
           </a>
         </Button>
+        <Button>
+          <a href="https://instagram-clone-bbb5a.web.app/">Go to site</a>
+        </Button>
       </CardActions>
     </Card>
   );
