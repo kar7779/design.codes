@@ -13,13 +13,8 @@ export default class nav extends Component {
         <nav>
           <Switch>
             <div className="nav-wrapper">
-              <a href="#!" className="brand-logo logo">
-                Design.codes
-              </a>
-              <a href="/" data-target="mobile-demo" className="sidenav-trigger">
-                <i className="material-icons">menu</i>
-              </a>
-              <ul className="right hide-on-med-and-down">
+              <h1>Designcodes</h1>
+              <ul>
                 <li>
                   <Link to={"/home"}>Home</Link>
                 </li>
@@ -33,18 +28,6 @@ export default class nav extends Component {
             </div>
           </Switch>
         </nav>
-
-        <ul className="sidenav" id="mobile-demo">
-          <li>
-            <Link to={"/home"}>Home</Link>
-          </li>
-          <li>
-            <Link to={"/about"}>about</Link>
-          </li>
-          <li>
-            <Link to={"/contact"}>contact</Link>
-          </li>
-        </ul>
       </div>
     );
   }
