@@ -1,0 +1,30 @@
+.footercls {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  max-width: 100%;
+  height: 30vh;
+  background-color: black;
+  color: white;
+}
+.about {
+  font-family: Roboto Slab;
+}
+.about h1 {
+  font-size: 2.4em;
+  margin-top: 20px;
+  font-style: normal;
+}
+.about p {
+  width: 400px;
+  font-size: 1.5em;
+  margin-top: 4px;
+}
+.icons {
+  font-family: Roboto Slab;
+
+  padding: 20px;
+}
+.icons a * {
+  padding: 9px;
+}

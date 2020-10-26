@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import "./home.css";
 import Man from "../photos/Ellipse 4.png";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import GithubIcon from "@material-ui/icons/GitHub";
+
 import MCard from "../container/Card";
+import Footer from "./Footer";
 
 export default class home extends Component {
   render() {
@@ -13,8 +12,13 @@ export default class home extends Component {
         <div className="container">
           <div className="card">
             <img src={Man} alt="" />
+            <h2>Hi. I'm Karthik!</h2>
+            <p>
+              I am a <span>web developer </span> & UI designer
+            </p>
           </div>
         </div>
+        <Footer />
         {/* <footer>
           <div className="icons">
             <a href="https://www.instagram.com/design.codes/" external>
