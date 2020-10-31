@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&family=Quicksand&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@300&display=swap");
 .footercls {
   display: flex;
   justify-content: space-around;
@@ -17,8 +18,10 @@
 }
 .about p {
   width: 400px;
-  font-size: 1.5em;
+  font-size: 1.4em;
   margin-top: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
 }
 .icons {
   font-family: Roboto Slab;

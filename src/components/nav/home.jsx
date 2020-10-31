@@ -19,22 +19,6 @@ export default class home extends Component {
           </div>
         </div>
         <Footer />
-        {/* <footer>
-          <div className="icons">
-            <a href="https://www.instagram.com/design.codes/" external>
-              <InstagramIcon style={{ color: "black" }}>
-                Instagram
-              </InstagramIcon>
-            </a>
-
-            <a href="https://twitter.com/harthik7799">
-              <TwitterIcon style={{ color: "black" }}>Twitter</TwitterIcon>
-            </a>
-            <a href="https://github.com/kar7779">
-              <GithubIcon style={{ color: "black" }}>Github</GithubIcon>
-            </a>
-          </div>
-        </footer> */}
       </div>
     );
   }

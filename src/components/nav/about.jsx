@@ -1,21 +1,29 @@
 import React, { Component } from "react";
+import Man from "../photos/Ellipse 4.png";
+import "./about.css";
+
 import InstagramIcon from "@material-ui/icons/Instagram";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GithubIcon from "@material-ui/icons/GitHub";
+import Footer from "./Footer";
 
 export default class about extends Component {
   render() {
     return (
       <div>
         <div className="info">
-          <h2>About me</h2>
-          <p>
-            Hi i'm Karthik Thammisetty and i'm under gradute in computer
-            science.I am very much intrested in Technology.My main goal is that
-            to develop the optimum solutons in order to create the best
-            experience in technology
-          </p>
-          <div className="icons">
+          <div className="infotxt">
+            <h1>Hi. I'm Karthik!</h1>
+            <p>
+              Hi i'm Karthik Thammisetty and i'm under gradute in computer
+              science.I am very much intrested in Technology.My main goal is
+              that to develop the optimum solutons in order to create the best
+              experience in technology
+            </p>
+          </div>
+
+          <img src={Man} alt="" />
+          {/* <div className="icons">
             <a href="https://www.instagram.com/design.codes/" external>
               <InstagramIcon style={{ color: "black" }}>
                 Instagram
@@ -28,25 +36,26 @@ export default class about extends Component {
             <a href="https://github.com/kar7779">
               <GithubIcon style={{ color: "black" }}>Github</GithubIcon>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="myskills">
-          <h2>My Skills</h2>
-          <p>
-            Apart from my college fundamentals and i self-tought my self
-            development of new technologies and i develop the skills which are required for web
-            development
-          </p>
-          <ul className="skills">
-            <li>Html</li>
-            <li>css</li>
-            <li>Javascript</li>
-            <li>ReactJs</li>
-            <li>Bootstrap</li>
-            <li>Adboe XD</li>
-            <li>Figma</li>
-          </ul>
+          <h1>My Skills</h1>
+          <div className="skills">
+            <div className="lang">
+              <h3>Reactjs</h3>
+              <h3>Javascript</h3>
+              <h3>Html</h3>
+              <h3>BootStrap</h3>
+            </div>
+            <div className="designtools">
+              <h3>Material UI</h3>
+              <h3>AdobeXd</h3>
+              <h3>Figma</h3>
+              <h3>Css</h3>
+            </div>
+          </div>
         </div>
+        <Footer />
       </div>
     );
   }
