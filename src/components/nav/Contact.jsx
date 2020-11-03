@@ -2,6 +2,7 @@ import React from "react";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GithubIcon from "@material-ui/icons/GitHub";
+import "./Contact.css";
 
 function Contact() {
   return (
