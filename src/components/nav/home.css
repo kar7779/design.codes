@@ -1,6 +1,6 @@
 .card {
   width: 23%;
-  height: 65vh;
+  height: 69vh;
   background-color: white;
   margin: 100px auto 0 auto;
   box-shadow: -30px -30px 16px rgba(213, 213, 213, 0.2),
@@ -35,4 +35,10 @@
 }
 span {
   color: red;
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 80%;
+    margin: 100px auto;
+  }
 }
