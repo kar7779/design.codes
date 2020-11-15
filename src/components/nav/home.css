@@ -42,3 +42,8 @@ span {
     margin: 100px auto;
   }
 }
+@media (max-width: 1024px) {
+  .card {
+    width: 80%;
+  }
+}

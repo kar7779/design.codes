@@ -31,7 +31,6 @@ const Nav = () => {
           <div className="line"></div>
         </div>
       </nav>
-      <Sidebar />
     </div>
   );
 };

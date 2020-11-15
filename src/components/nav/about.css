@@ -23,8 +23,8 @@
   width: 16%;
 }
 .myskills {
-  margin-left: 360px;
-  margin-top: 30px;
+  margin: 0 auto;
+  padding-left: 230px;
 }
 .myskills h1 {
   font-family: Roboto;
@@ -44,4 +44,53 @@
   justify-content: space-between;
   line-height: 100px;
   width: 800px;
+}
+@media only screen and (max-width: 600px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  .info :nth-child(1) {
+    order: 2;
+  }
+  .infotxt {
+    width: 300px;
+  }
+  .infotxt h1 {
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  .infotxt p {
+    width: 300px;
+    margin-top: 50px;
+  }
+  .info img {
+    width: 70%;
+  }
+  .lang {
+    display: block;
+  }
+  .designtools {
+    display: block;
+    margin: 0;
+    line-height: 2;
+  }
+  .myskills {
+    margin: 30px;
+    margin-bottom: 400px;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 78px) {
+  .myskills {
+    margin-bottom: 300px;
+    margin-left: 60px;
+  }
+  .designtools {
+    width: 530px;
+  }
+  .lang {
+    width: 550px;
+  }
 }

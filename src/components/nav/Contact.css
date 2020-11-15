@@ -7,3 +7,8 @@
   margin: 100px auto;
   font-family: Roboto Slab;
 }
+@media (max-width: 600px) {
+  .contact {
+    width: 290px;
+  }
+}

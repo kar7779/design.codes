@@ -21,23 +21,9 @@ export default class about extends Component {
               experience in technology
             </p>
           </div>
-
           <img src={Man} alt="" />
-          {/* <div className="icons">
-            <a href="https://www.instagram.com/design.codes/" external>
-              <InstagramIcon style={{ color: "black" }}>
-                Instagram
-              </InstagramIcon>
-            </a>
-
-            <a href="https://twitter.com/harthik7799">
-              <TwitterIcon style={{ color: "black" }}>Twitter</TwitterIcon>
-            </a>
-            <a href="https://github.com/kar7779">
-              <GithubIcon style={{ color: "black" }}>Github</GithubIcon>
-            </a>
-          </div> */}
         </div>
+        "
         <div className="myskills">
           <h1>My Skills</h1>
           <div className="skills">
