@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import Man from "../photos/Ellipse 4.png";
 import "./about.css";
 
-import InstagramIcon from "@material-ui/icons/Instagram";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import GithubIcon from "@material-ui/icons/GitHub";
 import Footer from "./Footer";
 
 export default class about extends Component {

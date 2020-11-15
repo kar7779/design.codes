@@ -1,8 +1,6 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Switch } from "react-router-dom/cjs/react-router-dom.min";
-import M from "materialize-css";
-import Sidebar from "./sidebar";
 
 const Nav = () => {
   const [open, setopen] = useState(false);

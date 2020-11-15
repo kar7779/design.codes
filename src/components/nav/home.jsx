@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./home.css";
 import Man from "../photos/Ellipse 4.png";
 
-import MCard from "../container/Card";
 import Footer from "./Footer";
 
 export default class home extends Component {
