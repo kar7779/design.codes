@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
+import "./sidebar.css";
+
 const Nav = () => {
   const [open, setopen] = useState(false);
   return (
